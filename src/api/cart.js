@@ -1,5 +1,4 @@
 const API_URL = "https://ecom-backend-mw88.onrender.com";
-// const API_URL = "https://ecom-backend-mw88.onrender.com";
 
 export async function addToCart(product) {
   const response = await fetch(`${API_URL}/cart/add`, {

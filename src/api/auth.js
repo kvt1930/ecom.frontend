@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000";
+const API_URL = "https://ecom-backend-mw88.onrender.com";
 
 
 export async function login(credentials) {
